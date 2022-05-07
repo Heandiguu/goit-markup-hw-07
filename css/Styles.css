@@ -40,7 +40,6 @@ h1{
    flex-direction: row;
    align-content: flex-start;
  }
-
 .botonservi{
    -webkit-box-shadow: -4px 7px 10px 3px rgba(0, 0, 0, 0.64);
    box-shadow: -4px 7px 10px 3px rgba(10, 10, 10, 20.);
@@ -76,7 +75,6 @@ h1{
    height: 386px;
 }
 h2{
-  
    margin:100px 100px 40px 680px;
 text-decoration:aquamarine;
 }
@@ -124,7 +122,6 @@ text-decoration:aquamarine;
    flex-direction: column;
    height: 428px;
    width: 270px;
-
 }
 .cln{
 margin:100px 100px 100px 300px;
@@ -155,14 +152,11 @@ fill: rgb(0, 128, 255);
    color: #2196F3;
    text-decoration: none;
 }
-
 .container {
       width: 1200px;
       margin: 0 auto;
       padding: 0 15px;
 }
-
-
 .c1 {
    height: 21px;
    width: 231px;
@@ -213,7 +207,7 @@ fill: rgb(0, 128, 255);
    background-color: grey;
    border: radius 20px;;
    border-color: #757575;
-;
+
 }
 .icon-instagram {
    width: 32px;
@@ -273,18 +267,22 @@ tr{
 .icon:hover {
    fill: rgb(0, 128, 255);
 }
-<!--coments------
-.botonestipos{
-height: 100px;
-width: 100px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+<!-----coments------>
+
+.botones2 {
+   display: flex;
+   justify-content: row;
+   
 }
-div{
-display: flex;
-flex-wrap: wrap;
-margin: 200px 1500px 10px 200px;
+.serv2{
+   display: flex;
+   justify-content: row;
+   margin: cover;
+}
+.botones2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 
-
+   margin: 100px 600px 100px 100px;
 }
